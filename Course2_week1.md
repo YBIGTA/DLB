@@ -15,9 +15,9 @@
 		 (2)Drop Out  
 		 (3)Other method
 	  3. Optimization
-		  (1)Normalizing Inputs  
-		  (2)Weight Initialization
-		  (3)Gradient Checking
+		 (1)Normalizing Inputs  
+		 (2)Weight Initialization
+		 (3)Gradient Checking
 ----
 <br/>  
 
