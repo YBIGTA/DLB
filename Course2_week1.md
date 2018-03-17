@@ -92,7 +92,7 @@
 
 
 ![Imgur](https://i.imgur.com/FS7zCYW.png)
-- Dropout은 일부 unit을 keep prop(살리는 비율)하에서 Drop(죽이는...?)하는 것을 뜻한다. 죽이는 것은 layer마다, iteration마다 랜덤이고, 비율을 달리 할 수 있다.  
+- Dropout은 일부 unit을 keep prob(살리는 비율)하에서 Drop(죽이는...?)하는 것을 뜻한다. 죽이는 것은 layer마다, iteration마다 랜덤이고, 비율을 달리 할 수 있다.  
 - keep prop은 Hyper parameter이고 cross validation으로 정한다. <br/>
 ----
 ![Imgur](https://i.imgur.com/Z3XCQLm.png)
@@ -100,6 +100,7 @@
 ----
 ![Imgur](https://i.imgur.com/6Ys1x8g.png)
 - 가장 많이 쓰는 Dropout이 "Inverted dropout"이다. 응짱도 다른 Dropout은 잘 모른다고 했다. 
+- unti이 죽으면 a값이 줄어들게 되는데, a를 keep prob으로 나눠 이를 방지한다.
 - Dropout은 Cost 계산을 어렵게 하기 때문에 GD를 쓸 때는 사용하지 않는다.	
 ## (3) Early stopping <br/>
 
