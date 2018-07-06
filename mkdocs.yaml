@@ -1,6 +1,6 @@
 site_name: Deep Learning Basic
 theme: readthedocs
-docs_dir: /
+docs_dir: docs
 repo_url: https://github.com/YBIGTA/DLB
 site_url: https://deep-learning-basic.readthedocs.io
 
