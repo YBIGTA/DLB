@@ -1,0 +1,16 @@
+site_name: Deep Learning Basic
+theme: readthedocs
+docs_dir: /
+repo_url: https://github.com/YBIGTA/DLB
+site_url: https://deep-learning-basic.readthedocs.io
+
+markdown_extensions:
+    - mdx_math
+    - fenced_code
+
+extra_javascript: 
+    - http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+pages:
+    - Home: index.md
+    - Overview: overview.md
